@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéFinder</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>
+          Encontre o seu <span>pokémon favorito</span> atráves de uma simples
+          consulta!
+        </h1>
+        <hr />
+        <div class="image">
+          <img src="assets/imgs/PokeFinderLOGO.png" alt="PokéFinder" />
+        </div>
+        <form class="form-pokemon">
+          <label>Nome do Pokémon ou número da Pokédex:</label>
+          <input
+            type="text"
+            id="pokemonName"
+            placeholder="Exemplo: Treecko ou 252"
+            required
+          />
+          <input type="submit" value="BUSCAR" />
+        </form>
+        <div id="pokemonImages"></div>
+        <div id="pokemonContent">...</div>
+      </div>
+    </div>
+  </body>
+</html>
