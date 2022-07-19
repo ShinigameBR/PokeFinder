@@ -56,16 +56,16 @@ hr {
   width: 90%;
 }
 
-.form-pokemon {
+.form-group {
   padding: 5px 0;
 }
 
-.form-pokemon label {
+.form-group label {
   font-weight: 900;
   color: #356abc;
 }
 
-.form-pokemon input {
+.form-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -75,7 +75,7 @@ hr {
   margin: 8px 0;
 }
 
-.form-pokemon input[type="submit"] {
+.form-group input[type="submit"] {
   background: #356abc;
   font-weight: 900;
   font-size: 1rem;
@@ -84,7 +84,7 @@ hr {
   cursor: pointer;
 }
 
-.pokemonImages img {
+#pokemonImages img {
   width: 90px;
   border: 1px solid #333;
   border-radius: 50%;

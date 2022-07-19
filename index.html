@@ -19,15 +19,19 @@
         <div class="image">
           <img src="assets/imgs/PokeFinderLOGO.png" alt="PokéFinder" />
         </div>
-        <form class="form-pokemon">
-          <label>Nome do Pokémon ou número da Pokédex:</label>
-          <input
-            type="text"
-            id="pokemonName"
-            placeholder="Exemplo: Treecko ou 252"
-            required
-          />
-          <input type="submit" value="BUSCAR" />
+        <form id="pokemon-form" autocomplete="off">
+          <div class="form-group">
+            <label>Nome do Pokémon ou número da Pokédex:</label>
+            <input
+              type="text"
+              id="pokemon"
+              placeholder="Exemplo: Treecko ou 252"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="submit" value="BUSCAR" />
+          </div>
         </form>
         <div id="pokemonImages"></div>
         <div id="pokemonContent">...</div>
