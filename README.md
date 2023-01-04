@@ -34,4 +34,4 @@
 
 ## Acesso ao projeto
 
-Você pode [visualizar o código fonte do projeto](https://github.com/ShinigameBR/PokeFinder) ou [acessá-lo diretamente](https://shin-poke-finder.herokuapp.com/).
+Você pode [visualizar o código fonte do projeto](https://github.com/ShinigameBR/PokeFinder) ou [acessá-lo diretamente](https://shin-poke-finder.netlify.app/).
